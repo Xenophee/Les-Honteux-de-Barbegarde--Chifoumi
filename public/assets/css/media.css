@@ -1,0 +1,278 @@
+@media (min-width: 800px) {
+
+
+/* Partie modal */
+    #openRules {
+        width: 20%;
+        font-size: 1.5rem;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #rules div {
+        width: 50%;
+        top: 120%;
+    }
+
+    #closeRules {
+        width: 20%;
+        font-size: 1.2rem;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+
+    .principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+
+    /* Partie icones */
+
+    .userCharacters, .iaCharacters {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        align-items: center;
+        width: 15%;
+        
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+
+    .firstBlocUser, .firstBlocIa, .secondBlocUser, .secondBlocIa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .userCards>.containImg, .iaCards>.containImg {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .userCards, .iaCards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 10%;
+    }
+
+    .userCharacters h2, .iaCharacters h2 {
+        font-size: 1.5rem;
+    }
+
+    .userCards .containImg, .iaCards .containImg{
+        width: 90%;
+    }
+
+    .userSpecialCards, .iaSpecialCards {
+
+        padding-top: 10%;
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .userSpecialCards>.containImg, .iaSpecialCards>.containImg {
+        flex-basis: 30%;
+    }
+
+    .containImg>img {
+        width: 85%;
+    }
+
+    .more {
+        width: 90%;
+        font-size: 1.2rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    #retry {
+        width: 40%;
+        font-size: 1.5rem;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-bottom: 3%;
+    }
+
+    #arrowUp, #arrowDown, #arrowUp2, #arrowDown2 {
+        width: 20%;
+        border: none;
+    }
+
+    /* Partie combat */
+
+    .fight {
+        /* background-image: url(/public/assets/img/erik-van-dijk-7aEhliQraPI-unsplash.jpg);
+        background-size: cover; */
+        width: 60%;
+        height: 30%;
+        margin-top: 0%;
+        margin-bottom: 2%;
+        padding-bottom: 2%;
+    }
+
+    .fight img {
+        width: 90%;
+    }
+
+    .fight>p {
+        margin-top: 5%;
+    }
+
+    .fight>h4 {
+        width: 100%;
+        font-size: 2rem;
+        margin-top: 0;
+        margin-bottom: 0%;
+    }
+
+    .show{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #vs {
+        /* justify-content: center; */
+        align-self: flex-end;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .showText {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-self: center;
+        /* height: 10vh; */
+        margin-bottom: 5%;
+    }
+
+    .fight>h3 {
+        font-size: 3rem;
+    }
+
+
+    /* Partie triche */
+
+    .cheating {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+
+    .cheating>div>div>img {
+
+        width: 60%;
+    }
+
+    .chooseCard>.containImg {
+        width: 20%;
+    }
+
+    .chooseResult {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    #victory, #defeat, #null {
+        width: 20%;
+        font-size: 1.2rem;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #cheat {
+        width: 20%;
+        font-size: 1rem;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        
+    }
+
+    input[type=password] {
+        width: 20%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 2%;
+        font-size: 1.2rem;
+    }
+    
+
+/* Partie résultat */
+
+.result {
+    margin-top: 0;
+    padding-bottom: 0%;
+}
+
+.result h3 {
+    font-size: 4rem;
+}
+
+.result>p {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.victory {
+    background-size:90%;
+}
+
+.presentation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.presentation a {
+    width: 20%;
+}
+
+.presentationText {
+    width: 50%;
+}
+
+#reward {
+    width: 30%;
+    font-size: 1.1rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+
+h1 {
+    font-size: 4rem;
+    padding-bottom: 3%;
+    margin-bottom:5%;
+}
+
+h2 {
+    font-size: 3rem;
+}
+}
