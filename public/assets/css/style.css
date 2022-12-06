@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(/public/assets/img/bodybackground.png);
+    background-image: url(../img/bodybackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -294,7 +294,7 @@ a {
     /* backdrop-filter: 100px; */
     /* background-color: #cccccc; */
     /* background-image:  linear-gradient(#203029, #516d61); */
-    background-image: url(/public/assets/img/fightbackground.png);
+    background-image: url(../img/fightbackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -494,7 +494,7 @@ input[type=password]:focus {
 
 .victory {
     min-height: 50vh;
-    background-image: url(/public/assets/img/banniere.png);
+    background-image: url(../img/banniere.png);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -516,7 +516,7 @@ input[type=password]:focus {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(/public/assets/img/banniere3.png);
+    background-image: url(../img/banniere3.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -527,7 +527,7 @@ input[type=password]:focus {
     color: #516d61;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-image: url(/public/assets/img/banniere2.png);
+    background-image: url(../img/banniere2.png);
     background-repeat: no-repeat;
     background-position: center;
     /* background-size: contain; */
