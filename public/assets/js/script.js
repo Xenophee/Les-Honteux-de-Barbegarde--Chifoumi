@@ -432,7 +432,6 @@ function fight (element) {
 iconsSelect.forEach(element => {
     element.addEventListener('mouseover', () => {
         let boing = new Audio("./public/assets/audio/Boing.mp3");
-        iconsSelect.style
         boing.play();
     })
 });
