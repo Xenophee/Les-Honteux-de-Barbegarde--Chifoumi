@@ -1,3 +1,10 @@
+// MUSIQUE PRINCIPALE
+let mainMusic = new Audio("./public/assets/audio/Jeu.mp3");
+window.addEventListener('load', () => {
+    mainMusic.play();
+    mainMusic.volume = 0.5;
+    mainMusic.loop = true;
+})
 
 // Sélection de blocs dans le body
 let containerSelect = document.querySelector('.container');
@@ -47,7 +54,7 @@ let userPoint = 0;
 let iaPoint = 0;
 let resultSelect = document.querySelector('.result');
 
-let mainMusic = new Audio("./public/assets/audio/Jeu.mp3")
+
 let scream = new Audio("./public/assets/audio/bahhhhh.mp3");
 
 
@@ -461,12 +468,7 @@ openRules.addEventListener('click', () => {
     })
 })
 
-window.addEventListener('load', () => {
-    
-    mainMusic.play();
-    mainMusic.volume = 0.5;
-    mainMusic.loop = true;
-})
+
 
 // ---------------------------------------------------------------------------------------------------------------------
 

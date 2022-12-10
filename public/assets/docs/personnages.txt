@@ -40,6 +40,9 @@ Abomine :
 Hontoscope : obtention après deux échecs d'affilé, une fois sur deux efface une défaite ou donne une victoire à l'adversaire
 
 
+Faire en sorte que les cartes cheat soient aussi désactivées quand une fin est lancée
+
+
 Pour victoire : son religieux
 Pour défaite : son SDA nain "pas ma barbe !"
 Pour égalité :
