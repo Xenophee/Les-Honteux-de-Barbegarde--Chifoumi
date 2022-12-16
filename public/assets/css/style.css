@@ -514,7 +514,7 @@ input[type=password]:focus {
 }
 
 .victory {
-    width: 80%;
+    width: 100%;
     min-height: 50vh;
     background-image: url(../img/banniere.png);
     background-repeat: no-repeat;
@@ -530,6 +530,7 @@ input[type=password]:focus {
 }
 
 .defeat {
+    width: 100%;
     min-height: 50vh;
     color: rgb(37, 37, 37);
     padding-top: 5%;
@@ -545,6 +546,7 @@ input[type=password]:focus {
 
 
 .null {
+    width: 100%;
     min-height: 50vh;
     color: #516d61;
     padding-top: 5%;
